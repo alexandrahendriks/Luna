@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A website about my dog, Luna" />
+    <meta name="keywords" content="dog, Luna, German Shepherd" />
+    <meta name="author" content="Sherlyn" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luna</title>
+    <link rel="icon" href="luna_logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="flexbox">
+      <div class="title">
+        <h1>Luna the German Shepherd</h1>
+      </div>
+      <div class="navbar">
+      <nav>
+        <ul >
+          <li class="nav-link"><a href="home.html">HOME</a></li>
+          <li class="nav-link"><a href="hobby.html">FAVORITE ACTIVITIES</a></li>
+          <li class="nav-link"><a href="gallery.html">GALLERY</a></li>
+          <li class="nav-link"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <main>
+        <header>
+          <h1 class="about">My favorite activities</h1>
+        </header>
+        <div class="flex-container">
+        <div class="flex-hobby">
+          <h2>Playing</h2>
+            <img class="img-hobby" src="playing.png" alt="Luna with a frizbi."/>
+            <p class="text-hobby">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Expedita vero rem, tempora cumque at ut. Officia, mollitia debitis cum suscipit
+              et quis, velit neque aliquid eveniet beatae nulla ducimus qui.</p>
+        </div>
+        <div class="flex-hobby">
+          <h2>Walking</h2>
+            <img class="img-hobby" src="walking.png" alt="Luna while walking."/>
+            <p class="text-hobby">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Vero ipsa, quidem consequuntur in corrupti accusantium! Porro minus atque optio
+              ipsa, suscipit enim iure assumenda. Animi at blanditiis assumenda corrupti dolorum?</p>
+        </div>
+        <div class="flex-hobby">
+          <h2>Chewing</h2>
+            <img class="img-hobby" src="chewing.png" alt="Luna chewing on a bone."/>
+            <p class="text-hobby2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptas alias minima cupiditate qui consectetur sunt quod eligendi, labore, 
+              cumque vitae mollitia ea molestias tempore deserunt autem officia error corporis fugit?</p>
+        </div>
+        <div class="flex-hobby">
+          <h2>Swiming</h2>
+            <img class="img-hobby" src="swiming.png" alt="Luna playing in her pool with water."/>
+            <p class="text-hobby3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Impedit pariatur doloremque perspiciatis totam, eaque tempora, officia ducimus 
+              fugit eum reiciendis, dolorum ipsum autem inventore voluptatem ratione cupiditate 
+              possimus cum quaerat.</p>
+        </div>
+      </div>
+      <form class="form-hobby">
+        <h3>What is your dog's favorite activitie?</h3>
+        <label><input class="input-hobby" name="playing"  type="checkbox">Playing</label><br/>
+        <label><input class="input-hobby" name="walking" type="checkbox">Walking</label><br/>
+        <label><input class="input-hobby" name="chewing" type="checkbox">Chewing</label><br/>
+        <label><input class="input-hobby" name="swiming" type="checkbox">Swiming</label><br/>
+        <label class="label-hobby">Other:<input class="input-hobby" name="other" type="text"></label><br/>
+        <input class="button" name="submit" type="submit"/>
+      </form>
+    </main>
+    <hr/>
+    <footer>
+      <p>&#169 All rights reserved - Luna</p>
+    </footer>
+  </body>
+</html>

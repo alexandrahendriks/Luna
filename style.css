@@ -301,46 +301,50 @@ footer {
     .text-hobby3 {
         margin-top: 17%;
        }
+    .grid-container {
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(16, 50px); 
+    }
     .gallery-picture-1 {
-       grid-area: 1 / 1 / 4 / 4;
+       grid-area: 1 / 1 / 6 / 4;
     }
     .gallery-picture-2 {
-        grid-area: 1 / 4 / 4 / 7;
+        grid-area: 1 / 4 / 6 / 7;
     }
     .gallery-picture-3 {
-        grid-area: 9 / 1 / -1 / 5;
+        grid-area: 11 / 1 / -1 / 5;
     }
     .gallery-picture-4 {
-        grid-area: 4 / 4 / 9 / 9;
+        grid-area: 1 / 7 / 6 / 11;
     }
     .gallery-picture-5 {
-        grid-area: 4 / 1 / 9 / 4;
+        grid-area: 6 / 1 / 11 / 4;
     }
     .gallery-picture-6 {
-        grid-area: 9 / 8 / -1 / 11;
+        grid-area: 11 / 8 / -1 / 11;
     }
     .gallery-picture-7 {
-        grid-area: 4 / 9 / 9 / 12;
+        grid-area: 6 / 9 / 11 / 12;
     }
     .gallery-picture-8 {
-        grid-area: 1 / 13 / 4 / -1;
+        grid-area: 1 / 13 / 6 / -1;
     }
     .gallery-picture-9 {
-        grid-area: 4 / 12 / 9 / -1;
+        grid-area: 6 / 12 / 11 / -1;
     }
     .gallery-picture-10 {
-        grid-area: 9 / 5 / -1 / 8;
+        grid-area: 11 / 5 / -1 / 8;
     }
     .gallery-picture-11 {
-        grid-area: 1 / 7 / 4 / 9;
+        grid-area: 6 / 4 / 11 / 7;
     }
     .gallery-picture-12 {
-        grid-area: 1 / 9 / 4 / 11;
+        grid-area: 6 / 7 / 11 / 9;
     }
     .gallery-picture-13 {
-        grid-area: 1/ 11 / 4 / 13;
+        grid-area: 1/ 11 / 6 / 13;
     }
     .gallery-picture-14 {
-        grid-area: 9 / 11 / -1 / -1;
+        grid-area: 11 / 11 / -1 / -1;
     }
  }

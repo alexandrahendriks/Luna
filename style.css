@@ -19,6 +19,7 @@ body {
 }
 a:link {
     text-decoration: none;
+    color: black;
 }
 .nav-link :visited {
     color: black;

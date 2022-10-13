@@ -126,7 +126,7 @@ input[type=radio]{
 footer {
     padding: 50px 25px 50px 20px;
     width: 100%;
-    background-image: url(./header.jpg);
+    background-image: url(./contentgallery/header.jpg);
     background-position: bottom;
     text-align: center;
     font: bold 150% 'Indie Flower', cursive;
@@ -136,7 +136,7 @@ footer {
 /*Flexbox and grid*/
 
 .flexbox {
-    background-image:url(header.jpg);
+    background-image:url(./contentgallery/header.jpg);
     background-position: center;
     display: flex;
     flex-direction: column;
